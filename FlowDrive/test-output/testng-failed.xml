@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parameter test Suite]" parallel="tests">
+  <test name="Mob2(failed)" parallel="tests">
+    <parameter name="ModuleName" value="FlowDrive"/>
+    <parameter name="Devicename" value="0123456789ABCDEF"/>
+    <parameter name="tcid" value="4"/>
+    <parameter name="url" value="127.0.0.1:4723"/>
+    <parameter name="platform" value="5.0"/>
+    <classes>
+      <class name="com.flowdrive.nativetest.Testcase_1">
+        <methods>
+          <include name="afterClass"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.flowdrive.nativetest.Testcase_1 -->
+    </classes>
+  </test> <!-- Mob2(failed) -->
+</suite> <!-- Failed suite [Parameter test Suite] -->
