@@ -29,8 +29,8 @@ public class LoginActivity {
 			
 			driver.findElement(By.id("com.thefloow.flo:id/btn_agree")).click();
 			Thread.sleep(2000);
-			driver.findElement(By.id(email)).sendKeys("cyber.geek205@gmail.com");
-			driver.findElement(By.id(password)).sendKeys("Zensar1234");
+			driver.findElement(By.id(email)).sendKeys("narmis1991@gmail.com");
+			driver.findElement(By.id(password)).sendKeys("Daljeet90");
 			driver.findElement(By.id(loginButton)).click();
 			
 		}catch(Exception e){

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Parameter test Suite" duration-ms="53997" started-at="2018-02-18T16:09:44Z" finished-at="2018-02-18T16:10:38Z">
+  <suite name="Parameter test Suite" duration-ms="69595" started-at="2018-02-19T16:47:39Z" finished-at="2018-02-19T16:48:49Z">
     <groups>
     </groups>
-    <test name="Mob2" duration-ms="53997" started-at="2018-02-18T16:09:44Z" finished-at="2018-02-18T16:10:38Z">
-      <class name="com.flowdrive.nativetest.Testcase_1">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.flowdrive.nativetest.Testcase_1@754ba872]" name="beforeClass" is-config="true" duration-ms="37126" started-at="2018-02-18T16:09:44Z" finished-at="2018-02-18T16:10:21Z">
+    <test name="Mob2" duration-ms="69595" started-at="2018-02-19T16:47:39Z" finished-at="2018-02-19T16:48:49Z">
+      <class name="com.flowdrive.nativetest.ValidateJourney">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.flowdrive.nativetest.ValidateJourney@5442a311]" name="beforeClass" is-config="true" duration-ms="35364" started-at="2018-02-19T22:17:39Z" finished-at="2018-02-19T22:18:15Z">
           <params>
             <param index="0">
               <value>
@@ -38,15 +38,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.flowdrive.nativetest.Testcase_1@754ba872]" name="f" duration-ms="15617" started-at="2018-02-18T16:10:21Z" finished-at="2018-02-18T16:10:37Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.flowdrive.nativetest.ValidateJourney@5442a311]" name="f" duration-ms="33118" started-at="2018-02-19T22:18:15Z" finished-at="2018-02-19T22:18:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.flowdrive.nativetest.Testcase_1@754ba872]" name="afterClass" is-config="true" duration-ms="1207" started-at="2018-02-18T16:10:37Z" finished-at="2018-02-18T16:10:38Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.flowdrive.nativetest.ValidateJourney@5442a311]" name="afterClass" is-config="true" duration-ms="1093" started-at="2018-02-19T22:18:48Z" finished-at="2018-02-19T22:18:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.flowdrive.nativetest.Testcase_1 -->
+      </class> <!-- com.flowdrive.nativetest.ValidateJourney -->
     </test> <!-- Mob2 -->
   </suite> <!-- Parameter test Suite -->
 </testng-results>

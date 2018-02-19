@@ -19,6 +19,7 @@ public class PropertyHandler {
 		String error;
 
 		try{
+			String location=System.getProperty("user.dir");
 			fis=new FileInputStream("D:\\Tomcat\\webapps\\Inzenious\\property\\"+fileName+".properties");
 			
 			 

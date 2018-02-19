@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Parameter test Suite" parallel="tests" thread-count="2">
+<suite name="Parameter test Suite" parallel="tests" thread-count="1">
 	<test name="Mob2">
 		<parameter name="Devicename" value="0123456789ABCDEF" />
 		<parameter name="url" value="127.0.0.1:4723" />
@@ -7,7 +7,8 @@
 		<parameter name="tcid" value="4" />
 		<parameter name="ModuleName" value="FlowDrive" />
 		<classes>
-			<class name="com.flowdrive.nativetest.Testcase_1"/>
+			
+			<class name="com.flowdrive.nativetest.ValidateJourney"/>
 		</classes>
 	</test>
 	
